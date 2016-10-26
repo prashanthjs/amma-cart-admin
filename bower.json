@@ -1,0 +1,20 @@
+{
+  "name": "ammaCartFrontv3",
+  "version": "0.0.0",
+  "dependencies": {
+    "triangular": "git@github.com:oxygenna/triangular-bower.git#~2.7.1",
+    "angular-ui-router": "1.0.0-beta.1",
+    "restangular": "~1.5.1",
+    "kendo-ui": "git@bitbucket.org:prashanthp/kendo-ui.git",
+    "async": "^1.5.2",
+    "angular-password": "^1.0.1"
+  },
+  "overrides": {
+    "triangular": {
+      "main": [
+        "triangular.min.js",
+        "triangular.css"
+      ]
+    }
+  }
+}

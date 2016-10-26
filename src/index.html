@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <title>Amma cart</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+
+  <!-- load fonts   -->
+  <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=RobotoDraft:100,100italic,300,300italic,400,500,700,900,400italic">
+
+  <!-- build:css({.tmp,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp,src}) styles/app.css -->
+  <link rel="stylesheet" href="index.css"/>
+  <!-- endbuild -->
+
+</head>
+
+<body translate-cloak ng-class="bodyClasses">
+<!-- main app view  -->
+<ui-view name="root" layout="row" class="full-height"></ui-view>
+
+<!-- build:js({.tmp,src}) scripts/vendor.js -->
+<!-- bower:js -->
+<!-- run `gulp inject` to automatically populate bower script dependencies -->
+<!-- endbower -->
+<!-- endbuild -->
+</body>
+</html>

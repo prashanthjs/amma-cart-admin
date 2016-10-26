@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "./typings/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "!typings/**",
+    "!node_modules/**"
+  ]
+}
